@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.navbtn {
+		@apply flex justify-center cursor-pointer rounded-md text-white hover:text-black z-10 border-[.5px] border-platnuim border-opacity-25 relative px-6 py-2 transition-all duration-[250ms] ease-in-out before:content-[''] before:absolute before:bottom-0 before:left-0 before:right-0 before:top-full before:rounded-md before:bg-platnuim before:-z-10 before:hover:top-0 before:transition-all before:duration-300 before:ease-in-out;
+	}
+
+	.mobile-nav-item {
+		@apply py-9 w-full text-center transition-all ease-in duration-500 hover:bg-gray-500 cursor-pointer border-b border-white text-lg;
+	}
+
+	.about-scroller-bottom {
+		@apply absolute w-[1px] h-[10vh] [background:linear-gradient(to_bottom,_rgba(255,_255,_255,_0)_0%,_#ffffff_75%,_#ffffff_100%)] overflow-hidden;
+	}
+
+	.about-scroller-top {
+		@apply absolute w-[1px] h-[10vh] [background:linear-gradient(to_top,_rgba(255,_255,_255,_0)_0%,_#ffffff_75%,_#ffffff_100%)] overflow-hidden;
+	}
+}
+
+@layer utilities {
+	/* For Webkit-based browsers (Chrome, Safari and Opera) */
+	.scrollbar-hide::-webkit-scrollbar {
+		display: none;
+	}
+
+	/* For IE, Edge and Firefox */
+	.scrollbar-hide {
+		-ms-overflow-style: none; /* IE and Edge */
+		scrollbar-width: none; /* Firefox */
+	}
+}
+
+body {
+	-ms-overflow-style: none; /* for Internet Explorer, Edge */
+	scrollbar-width: none; /* for Firefox */
+	overflow-y: scroll;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	@apply font-header;
+}
+
+p {
+	@apply font-paragraph;
+}
