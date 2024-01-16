@@ -10,7 +10,7 @@
 </script>
 
 {#key initialLoad}
-	<div id="home" class="relative custom-img bg-fixed">
+	<div id="home" class="relative custom-img bg-fixed" in:fade={{ duration: 1000, delay: 250 }}>
 		<Nav />
 		<div class="w-full h-[2px] bg-white absolute z-20"></div>
 		<section class="h-[88vh]">
@@ -43,15 +43,5 @@
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
-		animation: fadein 1s;
-	}
-
-	@keyframes fadein {
-		from {
-			opacity: 0;
-		}
-		to {
-			opacity: 1;
-		}
 	}
 </style>
