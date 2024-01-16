@@ -10,7 +10,7 @@
 			link: '/https://www.rockymountainslam.com/',
 			github: '',
 			img: {
-				desktop: 'src/lib/assets/projects/Rocky_Mountain_Slam.webm'
+				desktop: '/projects/Rocky_Mountain_Slam.webm'
 			}
 		},
 		{
@@ -21,8 +21,8 @@
 			link: 'https://ultra-site-mk3oi4ox8-martyheyn.vercel.app/',
 			github: 'https://github.com/martyheyn/ultra-site',
 			img: {
-				desktop: 'src/lib/assets/projects/ultra-desktop.png',
-				mobile: 'src/lib/assets/projects/ultra-mobile.png'
+				desktop: '/projects/ultra-desktop.png',
+				mobile: '/projects/ultra-mobile.png'
 			}
 		},
 		{
@@ -32,8 +32,8 @@
 			link: 'https://www.pardonmypicks.com/',
 			github: '',
 			img: {
-				desktop: 'src/lib/assets/projects/pmt-stats-header.png',
-				mobile: 'src/lib/assets/projects/pmt-phoneveiw.png'
+				desktop: '/projects/pmt-stats-header.png',
+				mobile: '/projects/pmt-phoneveiw.png'
 			}
 		}
 	];

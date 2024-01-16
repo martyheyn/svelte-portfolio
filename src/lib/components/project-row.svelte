@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { animateOnSCroll } from '$lib/utils/scroll';
 	import { onMount } from 'svelte';
-	import { quadInOut } from 'svelte/easing';
 	import { fly } from 'svelte/transition';
 
 	export let project: {

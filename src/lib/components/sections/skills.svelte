@@ -7,26 +7,26 @@
 	import type { TransitionConfig } from 'svelte/transition';
 
 	const languages = [
-		{ label: 'JavaScript', img: 'src/lib/assets/skill-icons/javascript.svg' },
-		{ label: 'TypeScript', img: 'src/lib/assets/skill-icons/typescript.svg' },
-		{ label: 'Node.JS', img: 'src/lib/assets/skill-icons/nodejs.svg' },
-		{ label: 'React', img: 'src/lib/assets/skill-icons/reactjs.svg' },
-		{ label: 'Angular', img: 'src/lib/assets/skill-icons/angular.svg' },
-		{ label: 'Vue', img: 'src/lib/assets/skill-icons/vue.svg' },
-		{ label: 'Sveltekit', img: 'src/lib/assets/skill-icons/svelte.svg' },
+		{ label: 'JavaScript', img: '/skill-icons/javascript.svg' },
+		{ label: 'TypeScript', img: '/skill-icons/typescript.svg' },
+		{ label: 'Node.JS', img: '/skill-icons/nodejs.svg' },
+		{ label: 'React', img: '/skill-icons/reactjs.svg' },
+		{ label: 'Angular', img: '/skill-icons/angular.svg' },
+		{ label: 'Vue', img: '/skill-icons/vue.svg' },
+		{ label: 'Sveltekit', img: '/skill-icons/svelte.svg' },
 		{
 			label: 'AWS',
-			img: 'src/lib/assets/skill-icons/aws.svg',
+			img: '/skill-icons/aws.svg',
 			microServices: [
-				{ label: 'AWS Amplify', img: 'src/lib/assets/skill-icons/aws-amplify.svg' },
-				{ label: 'AWS Cognito', img: 'src/lib/assets/skill-icons/aws-cognito.svg' },
-				{ label: 'AWS DynamoDB', img: 'src/lib/assets/skill-icons/aws-dynamodb.svg' },
-				{ label: 'AWS Lambda', img: 'src/lib/assets/skill-icons/aws-lamdba.svg' },
-				{ label: 'AWS AppSync', img: 'src/lib/assets/skill-icons/aws-appsync.svg' }
+				{ label: 'AWS Amplify', img: '/skill-icons/aws-amplify.svg' },
+				{ label: 'AWS Cognito', img: '/skill-icons/aws-cognito.svg' },
+				{ label: 'AWS DynamoDB', img: '/skill-icons/aws-dynamodb.svg' },
+				{ label: 'AWS Lambda', img: '/skill-icons/aws-lamdba.svg' },
+				{ label: 'AWS AppSync', img: '/skill-icons/aws-appsync.svg' }
 			]
 		},
-		{ label: 'Git', img: 'src/lib/assets/skill-icons/git.svg' },
-		{ label: 'TailwindCSS', img: 'src/lib/assets/skill-icons/tailwindcss.svg' }
+		{ label: 'Git', img: '/skill-icons/git.svg' },
+		{ label: 'TailwindCSS', img: '/skill-icons/tailwindcss.svg' }
 	];
 
 	type TransParams = { duration?: number };
@@ -127,6 +127,7 @@
 							class={`w-24 h-24 ${language.label === 'Git' ? 'invert' : ''}`}
 							alt="hello"
 						/>
+						<!-- "$lib/assets/skill-icons/typescript.svg" -->
 
 						<!-- AWS Microservices -->
 						{#if language.microServices}
