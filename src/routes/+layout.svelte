@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { setContext } from 'svelte';
 	import { writable } from 'svelte/store';
+	import { fade } from 'svelte/transition';
 
 	import Up from '$lib/components/up.svelte';
 
@@ -53,7 +54,7 @@
 </svelte:head>
 
 <div class="">
-	<div class="scrollbar-hide overflow-hidden">
+	<div class="scrollbar-hide overflow-hidden" in:fade={{ duration: 1000, delay: 150 }}>
 		<slot />
 	</div>
 

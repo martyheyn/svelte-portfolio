@@ -10,7 +10,7 @@
 </script>
 
 {#key initialLoad}
-	<div id="home" class="relative custom-img bg-fixed" in:fade={{ duration: 1000, delay: 250 }}>
+	<div id="home" class="relative custom-img bg-fixed">
 		<Nav />
 		<div class="w-full h-[2px] bg-white absolute z-20"></div>
 		<section class="h-[88vh]">
@@ -28,7 +28,7 @@
 				<div class="">
 					<button
 						class="bg-lightDark px-6 py-3 cursor-pointer border border-white rounded-md transition-all duration-300 ease-in-out hover:bg-dark"
-						in:fly={{ duration: 400, delay: 1250, y: 100 }}>Get in Touch</button
+						in:fly={{ duration: 400, delay: 1250, y: 25 }}>Get in Touch</button
 					>
 				</div>
 			</div>

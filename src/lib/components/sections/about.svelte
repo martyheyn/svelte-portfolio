@@ -32,7 +32,10 @@
 			</p>
 			<p></p>
 		</div>
+
+
 		<!-- Sparkling Stars Background -->
+		
 		<div
 			class="about-scroller-bottom -top-[30%] left-[4%] pulse"
 			style:transform={`translateY(${$scrollY / 2}px)`}

@@ -12,11 +12,11 @@
 	}
 
 	.about-scroller-bottom {
-		@apply absolute w-[1px] h-[10vh] [background:linear-gradient(to_bottom,_rgba(255,_255,_255,_0)_0%,_#ffffff_75%,_#ffffff_100%)] overflow-hidden;
+		@apply hidden lg:block absolute w-[1px] h-[10vh] [background:linear-gradient(to_bottom,_rgba(255,_255,_255,_0)_0%,_#ffffff_75%,_#ffffff_100%)] overflow-hidden;
 	}
 
 	.about-scroller-top {
-		@apply absolute w-[1px] h-[10vh] [background:linear-gradient(to_top,_rgba(255,_255,_255,_0)_0%,_#ffffff_75%,_#ffffff_100%)] overflow-hidden;
+		@apply hidden lg:block absolute w-[1px] h-[10vh] [background:linear-gradient(to_top,_rgba(255,_255,_255,_0)_0%,_#ffffff_75%,_#ffffff_100%)] overflow-hidden;
 	}
 }
 
