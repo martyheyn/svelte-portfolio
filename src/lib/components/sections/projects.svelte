@@ -7,8 +7,8 @@
 			description:
 				'As an avid through hiker / masochist, my borther decided to embark on a journey blazing his own trail through the rockies. I built this site so my mom could track him better and not go tottally insane with stress',
 			stack: ['Svelte', 'Typescript', 'TailwindCSS', 'Leaflet', 'AWS S3/Cloudfront'],
-			link: '/https://www.rockymountainslam.com/',
-			github: '',
+			link: 'https://www.rockymountainslam.com/',
+			github: 'https://github.com/martyheyn/rocky-mnt-slam',
 			img: {
 				desktop: '/projects/Rocky_Mountain_Slam.webm'
 			}
@@ -30,7 +30,7 @@
 			description: 'Built for a podcast to help listeners track a competetion',
 			stack: ['Sveltekit', 'PlanetScale', 'Prisma', 'Python', 'Typescript', 'TailwindCSS'],
 			link: 'https://www.pardonmypicks.com/',
-			github: '',
+			github: 'https://github.com/martyheyn/pardon-my-picks',
 			img: {
 				desktop: '/projects/pmt-stats-header.png',
 				mobile: '/projects/pmt-phoneveiw.png'
