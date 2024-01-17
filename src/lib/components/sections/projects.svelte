@@ -5,7 +5,7 @@
 		{
 			title: 'Rocky Mountain Slam',
 			description:
-				'As an avid through hiker / masochist, my borther decided to embark on a journey blazing his own trail through the rockies. I built this site so my mom could track him better and not go tottally insane with stress',
+				'As an avid through hiker / masochist, my borther decided to embark on a journey blazing his own trail through the rockies. I built this site so my mom could track him better and not go totally insane with stress',
 			stack: ['Svelte', 'Typescript', 'TailwindCSS', 'Leaflet', 'AWS S3/Cloudfront'],
 			link: 'https://www.rockymountainslam.com/',
 			github: 'https://github.com/martyheyn/rocky-mnt-slam',
@@ -48,8 +48,8 @@
 		</h1>
 		<h1 class="my-8 lg:my-12 text-xl max-w-3xl">
 			I signed a NDA, so I cannot disclose work related projects. You will have to take my word that
-			are very cool, check out my resume for the scope and stack of those. Here are some personal
-			projects I have worked on...
+			they are very cool, check out my resume for the scope and stack of those. Here are some
+			personal projects I have worked on...
 		</h1>
 
 		<div class="flex flex-col gap-y-20 lg:gap-y-32">

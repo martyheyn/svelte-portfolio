@@ -19,11 +19,11 @@
 
 <!-- want this to slide in from the left and take up 90% of screen -->
 <nav
-	class="sm:hidden bg-dark bg-opacity-95 text-white absolute top-16 z-40 w-full flex flex-col justify-center items-center transition-all duration-300"
+	class="sm:hidden bg-dark bg-opacity-[.99] text-white absolute top-16 z-40 w-full flex flex-col justify-center items-center transition-all duration-300"
 	transition:fly={{ y: -200, duration: 300 }}
 >
 	<button on:click={(event) => mobileNavClick(event, 'home')} class="mobile-nav-item">Home</button>
-	<button on:click={(event) => scrollToSection(event, 'about')} class="mobile-nav-item"
+	<button on:click={(event) => mobileNavClick(event, 'about')} class="mobile-nav-item"
 		>About Me</button
 	>
 	<button on:click={(event) => mobileNavClick(event, 'skills')} class="mobile-nav-item"

@@ -38,10 +38,10 @@
 
 <style>
 	.custom-img {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-			url('$lib/assets/landing/night-mountains.jpg');
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+			url('$lib/assets/landing/night-mountains.jpg');
 	}
 </style>
