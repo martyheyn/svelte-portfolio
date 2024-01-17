@@ -9,10 +9,14 @@
 	});
 </script>
 
-<div id="home" class="relative custom-img bg-fixed" in:fade={{ duration: 300, delay: 150 }}>
+<div
+	id="home"
+	class="relative custom-img bg-fixed h-[97vh]"
+	in:fade={{ duration: 300, delay: 150 }}
+>
 	<Nav />
 	<div class="w-full h-[2px] bg-white absolute z-20"></div>
-	<section class="h-[88vh]">
+	<section class="">
 		{#if initialLoad}
 			<div
 				class="z-20 px-8 absolute top-[42%] right-1/4 md:right-1/2 lg:right-[58%] translate-x-1/4 -translate-y-1/3 flex flex-col items-start text-left gap-y-8 w-full md:w-[60%] lg:w-[50%] transition-all duration-300 ease-in-out"
