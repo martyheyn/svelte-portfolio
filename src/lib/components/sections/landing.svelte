@@ -47,5 +47,9 @@
 		background-repeat: no-repeat;
 		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
 			url('$lib/assets/landing/night-mountains.jpg');
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		overflow: hidden;
 	}
 </style>
