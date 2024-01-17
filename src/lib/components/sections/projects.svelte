@@ -47,9 +47,9 @@
 			Projects
 		</h1>
 		<h1 class="my-8 lg:my-12 text-xl max-w-3xl">
-			I was under NDA for my work projects so you will have to take my word that are very cool.
-			Check out my resume for the scope and stack of those. Here are some personal projects I have
-			worked on...
+			I signed a NDA, so I cannot disclose work related projects. You will have to take my word that
+			are very cool, check out my resume for the scope and stack of those. Here are some personal
+			projects I have worked on...
 		</h1>
 
 		<div class="flex flex-col gap-y-20 lg:gap-y-32">

@@ -7,10 +7,10 @@
 
 <div
 	id="about"
-	class="py-16 px-6 sm:px-8 md:px-16 max-w-7xl mx-auto transition-all duration-300 ease-in-out"
+	class="py-16 px-6 sm:px-8 lg:px-16 max-w-7xl mx-auto transition-all duration-300 ease-in-out"
 >
 	<div
-		class="shadow-2xl py-12 px-4 md:px-12 transition-all duration-300 ease-in-out bg-lightDark flex flex-col lg:flex-row lg:gap-x-16 gap-y-8 rounded-md relative overflow-hidden"
+		class="shadow-2xl py-6 lg:py-12 px-4 lg:px-12 transition-all duration-300 ease-in-out bg-lightDark flex gap-y-8 rounded-md relative overflow-hidden"
 	>
 		<div class="flex flex-col gap-y-6 max-w-xl mx-auto relative z-10">
 			<h1 class="text-4xl font-bold">Hi!</h1>
@@ -30,12 +30,10 @@
 				around in uniforms while trying to complete an objective usually involving a ball of some
 				sort.
 			</p>
-			<p></p>
 		</div>
 
-
 		<!-- Sparkling Stars Background -->
-		
+
 		<div
 			class="about-scroller-bottom -top-[30%] left-[4%] pulse"
 			style:transform={`translateY(${$scrollY / 2}px)`}

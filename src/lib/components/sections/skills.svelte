@@ -102,7 +102,7 @@
 				bind:this={titleElement}
 				in:coolAnimation={{ duration: 500 }}
 			>
-				I'm pretty solid with these Languages
+				I like working with these Languages
 			</h1>
 		{/key}
 	</div>
