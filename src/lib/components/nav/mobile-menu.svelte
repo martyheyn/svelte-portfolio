@@ -34,7 +34,7 @@
 	>
 	<a
 		class="mobile-nav-item"
-		href="https://drive.google.com/file/d/1kbM9l0jgO4bRvU_uJ1t-b0Ip_QGB-snT/view?usp=sharing"
+		href="https://drive.google.com/file/d/15fNq4uycYf0foLBDiuPpj6Ss5GsrbR99/view?usp=sharing"
 		target="_blank">Resume</a
 	>
 </nav>
