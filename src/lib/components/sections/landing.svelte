@@ -50,6 +50,12 @@
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		height: 100%;
-		overflow: hidden;
+		overflow-x: hidden;
+	}
+
+	@media (max-width: 600px) {
+		.custom-img {
+			background-attachment: scroll;
+		}
 	}
 </style>
