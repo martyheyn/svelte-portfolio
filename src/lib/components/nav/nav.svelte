@@ -41,28 +41,21 @@
 		<div
 			class="hidden sm:flex justify-around items-center transition-all duration-300 sm:gap-x-4 lg:gap-x-8"
 		>
-			<div class="navbtn">
-				<button on:click={(event) => scrollToSection(event, 'home')}>Home</button>
-			</div>
+			<button class="navbtn" on:click={(event) => scrollToSection(event, 'home')}>Home</button>
 
-			<div class="navbtn">
-				<button on:click={(event) => scrollToSection(event, 'about')}>About Me</button>
-			</div>
+			<button class="navbtn" on:click={(event) => scrollToSection(event, 'about')}>About Me</button>
 
-			<div class="navbtn">
-				<button on:click={(event) => scrollToSection(event, 'skills')}>Skills</button>
-			</div>
+			<button class="navbtn" on:click={(event) => scrollToSection(event, 'skills')}>Skills</button>
 
-			<div class="navbtn">
-				<button on:click={(event) => scrollToSection(event, 'projects')}>Projects</button>
-			</div>
+			<button class="navbtn" on:click={(event) => scrollToSection(event, 'projects')}
+				>Projects</button
+			>
 
-			<div class="navbtn">
-				<a
-					href="https://drive.google.com/file/d/15fNq4uycYf0foLBDiuPpj6Ss5GsrbR99/view?usp=sharing"
-					target="_blank">Resume</a
-				>
-			</div>
+			<a
+				href="https://drive.google.com/file/d/15fNq4uycYf0foLBDiuPpj6Ss5GsrbR99/view?usp=sharing"
+				target="_blank"
+				class="navbtn">Resume</a
+			>
 		</div>
 		<!-- mobile -->
 		<div class="sm:hidden text-white absolute z-20 top-2 left-1">

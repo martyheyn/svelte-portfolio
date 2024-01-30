@@ -5,7 +5,7 @@
 		{
 			title: 'Rocky Mountain Slam',
 			description:
-				'As an avid through hiker / masochist, my borther decided to embark on a journey blazing his own trail through the rockies. I built this site so my mom could track him better and not go totally insane with stress',
+				'As an avid through hiker / masochist, my brother decided to embark on a journey blazing his own trail through the rockies. I built this site so my mom could track him better and not go totally insane with stress',
 			stack: ['Svelte', 'Typescript', 'TailwindCSS', 'Leaflet', 'AWS S3/Cloudfront'],
 			link: 'https://www.rockymountainslam.com/',
 			github: 'https://github.com/martyheyn/rocky-mnt-slam',
